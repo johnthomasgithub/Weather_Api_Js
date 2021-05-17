@@ -32,12 +32,7 @@ let weather = {
       this.fetchWeather(document.querySelector(".search-bar").value);
   }
 };
-<<<<<<< HEAD
 document.querySelector(".search-button")
-=======
-document
-.querySelector(".search-button")
->>>>>>> 59948e80be82c5d61645db0b2abe64290e26fdca
 .addEventListener("click", function(){
    weather.search();
 });
@@ -47,8 +42,4 @@ document.querySelector(".search-bar")
         weather.search();
     }
 });
-<<<<<<< HEAD
 weather.fetchWeather("Denver");
-=======
-weather.fetchWeather("Denver");
->>>>>>> 59948e80be82c5d61645db0b2abe64290e26fdca
